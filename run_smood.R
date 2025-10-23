@@ -11,9 +11,20 @@ library(KFAS)
 # University of Michigan, Survey Research Center
 #https://data.sca.isr.umich.edu/#
 
+https://raw.githubusercontent.com/oysteinm/smood/refs/heads/main/AAk7MRJC.csv
+https://raw.githubusercontent.com/oysteinm/smood/refs/heads/main/scaum-479.csv
+
+rm(list = ls())
+
 # Monthly data
 ics_month <- read_csv("scaum-479.csv", col_types = cols(yyyymm = col_date(format = "%Y%m")))
 ics_month
+
+ics_month 
+
+# save ics_month as csv where NA is empty
+write_csv(ics_month, "ics_month.csv", na = "")
+
 
 # Data for analysis
 ics_data <- 
