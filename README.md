@@ -339,7 +339,7 @@ This generates synthetic data and validates all functions.
 
 ## License
 
-MIT License - see LICENSE file for details.
+MIT License.
 
 ## Citation
 
