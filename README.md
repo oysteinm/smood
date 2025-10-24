@@ -274,7 +274,7 @@ This implementation is based on:
 
 For theoretical details, see the notebook or these references:
 - Durbin, J., & Koopman, S. J. (2012). *Time Series Analysis by State Space Methods*
-- Särkkä, S. (2013). *Bayesian Filtering and Smoothing*
+- Särkkä, S. & Svensson, L. (2023). *Bayesian Filtering and Smoothing*
 
 ## Real-World Example: Index of Consumer Sentiment
 
